@@ -1,2 +1,2 @@
 # GrowBiz
-Spending Tracker
+Spending Tracker For SMEs
