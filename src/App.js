@@ -12,7 +12,7 @@ export default function App() {
     <TransactionProvider>
       <Router>
         <NavBar />
-        <div style={{ padding: '1rem' }}>
+        <div style={{ padding: '1rem' }}> 
           <Routes>
             <Route path="/" element={<Dashboard />} />
             <Route path="/add" element={<AddTransaction />} />
