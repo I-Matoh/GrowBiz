@@ -7,7 +7,7 @@ router.get('/', (req, res) => {
   const transactions = db.getAllTransactions();
   res.json(transactions);
 });
-
+ 
 // POST /api/transactions
 router.post('/', (req, res) => {
   const { description, amount, category, type, date } = req.body;
