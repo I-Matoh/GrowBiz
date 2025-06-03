@@ -10,7 +10,7 @@ import Reports from './pages/Reports';
 export default function App() {
   return (
     <TransactionProvider>
-      <Router>
+      <Router> 
         <NavBar />
         <div style={{ padding: '1rem' }}> 
           <Routes>
