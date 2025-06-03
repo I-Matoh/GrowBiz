@@ -82,7 +82,7 @@ const MobileNavLink = ({ to, children, active, onClick }) => (
       active ? 'font-semibold text-primary' : 'font-medium'
     }`}
     onClick={onClick}
-  >
+  >    
     {children}
   </Link>
 );
