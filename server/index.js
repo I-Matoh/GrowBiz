@@ -14,7 +14,7 @@ app.use(express.json());
 // API routes
 app.use('/api/transactions', transactionsRouter);
 
-// Serve frontend build in production   
+// Server frontend build in production   
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static(path.join(__dirname, '..', 'build')));
 
