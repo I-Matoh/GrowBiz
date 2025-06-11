@@ -4,7 +4,7 @@ const path = require('path');
 const transactionsRouter = require('./routes/transactions');
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT 
 
 // Enable CORS for development
 app.use(cors());
