@@ -20,7 +20,7 @@ yarn-error.log*
 /coverage/
 
 # OS metadata
-.DS_Store
+.DS_Store 
 
 # Optional editor folders (add yours if needed)
 .vscode/
