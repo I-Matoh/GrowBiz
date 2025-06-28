@@ -6,4 +6,4 @@ export const CATEGORIES = [
   'Utilities',
   'Health',
   'Other',
-];
+];  
