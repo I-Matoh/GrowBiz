@@ -8,7 +8,7 @@ export const theme = {
     background: {
       main: '#f8fafc',     // Light gray/blue
       card: '#ffffff',     // White
-      dark: '#1e293b',     // Dark slate
+      dark: '#1e293b',     // Dark slate 
     },
     text: {
       primary: '#0f172a',   // Dark slate
@@ -17,7 +17,7 @@ export const theme = {
     },
     border: '#e2e8f0',     // Light gray
   },
-  spacing: {
+  spacing: { 
     xs: '0.25rem',
     sm: '0.5rem',
     md: '1rem',
