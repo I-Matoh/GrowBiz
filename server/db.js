@@ -9,7 +9,7 @@ function addTransaction(transaction) {
   const newTransaction = { id: nextId++, ...transaction };
   transactions.push(newTransaction);
   return newTransaction;
-} 
+}   
 
 function deleteTransaction(id) {
   const index = transactions.findIndex(t => t.id === id);
