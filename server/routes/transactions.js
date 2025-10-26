@@ -26,7 +26,7 @@ router.delete('/:id', (req, res) => {
   const success = db.deleteTransaction(id);
   if (!success) return res.status(404).json({ error: 'Transaction not found' });
 
-  res.status(204).end();
+  res.status(204).end(); 
 });
  
 module.exports = router;
