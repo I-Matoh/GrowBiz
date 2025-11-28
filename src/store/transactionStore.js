@@ -45,7 +45,7 @@ export function TransactionProvider({ children }) {
       }
     }
     fetchTransactions();
-  }, []);
+  }, []);    
 
   return (
     <TransactionStateContext.Provider value={state}>
