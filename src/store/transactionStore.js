@@ -7,7 +7,7 @@ const initialState = {
   transactions: [],
   loading: false,
   error: null,
-};
+}; 
 
 function transactionReducer(state, action) {
   switch (action.type) {
