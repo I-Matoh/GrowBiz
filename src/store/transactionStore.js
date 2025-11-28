@@ -10,7 +10,7 @@ const initialState = {
 }; 
 
 function transactionReducer(state, action) {
-  switch (action.type) {
+  switch (action.type) {  
     case 'FETCH_INIT':
       return { ...state, loading: true, error: null };
     case 'FETCH_SUCCESS':
