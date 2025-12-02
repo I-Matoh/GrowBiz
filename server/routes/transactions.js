@@ -4,7 +4,7 @@ const db = require('../db');
 
 // GET /api/transactions
 router.get('/', (req, res) => {
-  const transactions = db.getAllTransactions();
+  const transactions = db.getAllTransactions();  
   res.json(transactions);
 });
  
