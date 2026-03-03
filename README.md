@@ -131,7 +131,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-- **Project Maintainer**: Trent (trent@example.com)
+- **Project Maintainer**: 
 - **Issues**: Report bugs or suggest features on [GitHub Issues](https://github.com/yourusername/growbiz/issues).
 - **Community**: Join our Discord or follow us on X (@GrowBizApp).
 
